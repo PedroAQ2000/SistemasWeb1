@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<index.html>
+<git add - - all
+
+git commit - m "Compromiso inicial"
+
+git push - u origen principal
+<html lang="en"> 
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<link rel="stylesheet" href="estilos.css">
+	<title>Ventas - EL PERIN</title>
+</head>
+<body>
+	
+	<div class="contenedor">
+		<header>
+			<div class="logo">
+				<h1>EL PERIN</h1>
+				<p>VENDIENDO DE TODO UN POCO</p>
+			</div>
+			<form action="">
+				<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+			</form>
+			<div class="categorias" id="categorias">
+				<a href="#" class="activo">Todos</a>
+				<a href="#">Videojuegos</a>
+				<a href="#">Programas</a>
+			</div>
+		</header>
+
+		<section class="grid" id="grid">
+			<div class="item" 
+				 data-categoria="videojuegos"
+				 data-etiquetas="armas disparos muerte"
+				 data-descripcion="1.- Videojuego de disparos 25bs."
+			>
+				<div class="item-contenido">
+					<img src="img/CallofDuty.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="programas"
+				 data-etiquetas="Software"
+				 data-descripcion="2.- Programa de instalación 70bs."
+			>
+				<div class="item-contenido">
+					<img src="img/Windows10Pro.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="videojuegos"
+				 data-etiquetas="disparos muerte"
+				 data-descripcion="3.- Videojuego de disparos 20bs."
+			>
+				<div class="item-contenido">
+					<img src="img/HaloWars2.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="programas"
+				 data-etiquetas="software programa seguridad"
+				 data-descripcion="4.- Antivirus 60bs."
+			>
+				<div class="item-contenido">
+					<img src="img/Antivirus.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="programas"
+				 data-etiquetas="trabajos software programa"
+				 data-descripcion="5.- Trabajos 100bs."
+			>
+				<div class="item-contenido">
+					<img src="img/OfficeProfessional2019Plus.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="videojuegos"
+				 data-etiquetas="disparos suspenso"
+				 data-descripcion="6.- Presa o Cazador 25.50bs."
+			>
+				<div class="item-contenido">
+					<img src="img/Prey.jpg" alt="">
+				</div>
+			</div>
+		</section>
+
+		<section class="overlay" id="overlay">
+			<div class="contenedor-img">
+				<button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+				<img src="" alt="">
+			</div>
+			<p class="descripcion"></p>
+		</section>
+
+		<footer class="contenedor">
+			<div class="redes-sociales">
+				<div class="contenedor-icono">
+					<a href="http://www.twitter.com" target="_blank" class="twitter">
+						<i class="fab fa-twitter"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="https://www.facebook.com/PedroAQ2000" target="_blank" class="facebook">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="https://www.instagram.com/pedro.quinteros.12/" target="_blank" class="instagram">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</div>
+			</div>
+			<div class="creado-por">
+				<p>Sitio diseñado por <a href="#">Pedro Quinteros</a> - <a href="https://www.facebook.com/PedroAQ2000">EL PERIN</a></p>
+			</div>
+		</footer>
+	</div>
+
+	<pagar class="paguitos">
+	<div class="pagos" style="width: 200rem;">
+		<img src="img/pagospaypal.jpeg" alt="center" width="300rem">
+		<div class="card-body">
+		  <h5 class="card-title">Compra en línea </h5>
+		  <p class="card-text">Compra el artículo que deseas y anhelas tener a un bajo costo.</p>
+		  <a href="#" class="btn btn-primary">Paga Aquí</a>
+			<a href="https://www.paypal.com/myaccount/activities/?free_text_search=&start_date=2022-07-08&end_date=2022-10-06&type=&status=&currency=&filter_id=&issuance_product_name=&asset_names=&asset_symbols=" target="_blank" class="paypal">
+				<i class="fab fa-paypal"></i>
+			</a>
+		</div>
+	  </div>
+	</pagar>
+
+	<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
